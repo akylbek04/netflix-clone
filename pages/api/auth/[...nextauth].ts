@@ -4,8 +4,7 @@ import GoogleProvider from "next-auth/providers/google";
 import Credentials from "next-auth/providers/credentials";
 import prismadb from "@/lib/prismadb";
 import { compare } from "bcrypt";
-import GithubProviders from "next-auth/providers/github";
-import GoogleProviders from "next-auth/providers/google";
+
 
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
 
